@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: none;
+  margin: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
