@@ -38,8 +38,8 @@ function Landing(){
                           <div className='flex flex-col lg:flex-row gap-2 justify-center items-center'>
                                 <img className='w-[30%] lg:w-[15%] rounded-lg' src={image} alt="profile-photo" />
                                 <div className='w-[70%] lg:w-[60%] lg:p-5'>
-                                     <p className='text-xl text-[#01b4dc] font-semibold text-center lg:text-start mb-3'>Surjeet Dhakad</p>
-                                     <p className='text-justify p-0 m-0'>As a developer, my passion lies in solving complex problems and translating ideas into functional software. I thrive on the challenges that arise during the development process, whether it’s debugging an issue or optimizing performance. Each project provides an opportunity to innovate and find creative solutions, which keeps me motivated and engaged.<a className='text-[#01b4dc]' href="https://portfolio-website-t5z3.onrender.com/" target="_blank">know more</a></p>
+                                     <p className='text-xl text-[#01b4dc] font-semibold text-center lg:text-start mb-3'>Yogendra Dawar</p>
+                                     <p className='text-justify p-0 m-0'>As a developer, my passion lies in solving complex problems and translating ideas into functional software. I thrive on the challenges that arise during the development process, whether it’s debugging an issue or optimizing performance. Each project provides an opportunity to innovate and find creative solutions, which keeps me motivated and engaged.</p>
                                 </div>
                           </div>
                      </div>

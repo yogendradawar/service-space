@@ -38,7 +38,7 @@ function Navbar({isLogedIn,setisLogedIn}) {
                              <NavLink to="/home" className={`hover:text-[#01b4dc] ps-4 p-2 text-bottom border-b-2 border-white invisible lg:visible`}>Home</NavLink>
                              <NavLink to="/home" className={`hover:text-[#01b4dc] p-2 border-b-2 border-white invisible lg:visible`}>Services</NavLink>
                              <NavLink to="/admin" className={`hover:text-[#01b4dc] p-2 border-b-2 border-white invisible lg:visible ${!curruser||curruser.role=="student"?"hidden":""}`}>{curruser?curruser.role=="admin"?"Admin":"Teacher":""}</NavLink>
-                             <a href="https://service-space.vercel.app/partners">Partners</a>
+                  
                         </div>
                  </div>
                  <div>

@@ -6,9 +6,7 @@ function TestCard({getProvider,service}) {
   const navigate = useNavigate()
   return (
     service&&<div className={`w-[10rem] ${!getProvider?"h-[20rem]":"h-[15rem]"} mx-auto rounded overflow-hidden flex flex-col shadow-lg hover:scale-[1.02] transition-transform ease-in-out delay-400 z-[50] cursor-pointer`}>
-          {service!=null && (<><div className='w-[10rem] h-[10rem]' onClick={()=>{
-            if(getProvider)
-            window.open(`https://service-space.vercel.app/show/${service.id}`);}}>
+          {service!=null && (<><div className='w-[10rem] h-[10rem]'>
                 <img className={`w-[100%] ${getProvider?"h-[7rem]":""} rounded`} src={service?.image?.[0]||"https://img.freepik.com/free-psd/contact-icon-illustration-isolated_23-2151903337.jpg?semt=ais_hybrid&w=740"} alt="" />
            </div>
            <div className='px-2 pb-2 flex flex-col justify-between'>
@@ -31,7 +29,7 @@ function TestCard({getProvider,service}) {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  WhatsApp
+  pp
 </a>
               <a className='px-2 py-1 mt-2 rounded border border-[#01b4dc] text-sm font-semibold ' href={`tel:+91${service.Contact}`}>Call</a></>}
               </div>
