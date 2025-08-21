@@ -44,18 +44,19 @@ A comprehensive home services marketplace platform that connects homeowners with
 
 
 ## ⚙️ Installation & Setup
-
-1. **Clone the repository**
-   ```git clone https://github.com/yogendradawar/service-space.git```
-   
-2. **Navigate to project directory**
-```cd service-space```
-
-3. **Install dependencies**
-```npm install```
-
-4. **Start the development server**
-```npm start```
+undefined
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yogendradawar/service-space.git
+2. Navigate to project directory
+   ```bash
+   cd service-space
+3. Install dependencies
+   ```bash
+   npm install
+4. Start the development server
+   ```bash
+    npm start
 
 
 5. **Open your browser and visit**
